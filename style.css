@@ -99,7 +99,7 @@ body {
     top: 0;
     left: -100%;
     height: 100vh;
-    width: 15rem;
+    width: 25rem;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     transition: 0.3s;
@@ -126,6 +126,12 @@ body {
     font-size: 1.6rem;
 }
 
+.navbar .menu-nav li {
+    display: flex;
+    justify-content: right;
+    color: rgb(214, 18, 18);
+    padding-top: 40rem;
+}
 
 .navbar .menu-nav.active {
     left: 0;
