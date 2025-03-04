@@ -69,6 +69,25 @@ body {
     right: 0;
 }
 
+/* hero section */
+.hero .content {
+    display: flex;
+    color: white;
+    padding-top: 10rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero .content h1 {
+    font-weight: 600;
+    font-size: 5.5rem;
+}
+
+.hero .content h2 {
+    font-weight: 600;
+    font-size: 5rem;
+}
+
 
 
 
