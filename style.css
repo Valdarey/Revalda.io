@@ -30,6 +30,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
+    border-bottom: 2px solid white;
     padding: 1.5rem 3%;
     align-items: center;
     font-size: 1.4rem;
@@ -99,6 +100,12 @@ body {
     font-size: 2rem;
 }
 
+.content h3 {
+    font-weight: 500;
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
 /* card section start */
 .intro {
     color: black;
@@ -119,7 +126,7 @@ body {
     flex-wrap: nowrap;
     justify-content: center;
     margin-top: 5rem;
-    font-size: 3rem;
+    font-size: 4rem;
     color: rgb(25, 109, 177);
 }
 
@@ -130,17 +137,13 @@ body {
     justify-content: center;
     margin: 0 0.5rem;
     width: 10rem;
+    height: 10rem;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
 }
-
-
-
-
-
 
 
 .card-container {
@@ -171,10 +174,33 @@ body {
     height: 30rem;
     width: 100%;
     object-fit: cover;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .card .card-content h3 {
     color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+}
+
+.card .card-content p {
+    font-size: 1.8rem;
+    padding-bottom: 1.55rem;
+}
+
+.card .card-content a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.card-content .tombol {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: rgb(0, 128, 255);
 }
 /* card section end */
 
@@ -189,7 +215,7 @@ body {
 
 
 /* Mobile */
-@media (max-width: 930px) {
+@media (max-width: 920px) {
     html {
         font-size: 60%;
     }
@@ -246,6 +272,10 @@ body {
     padding-top: 40rem;
 }
 
+.hero .content h3 {
+    font-size: 2rem;
+}
+
 /* Card name start */
 .intro .text-intro h1 {
     display: flex;
@@ -255,11 +285,12 @@ body {
 
 .card-name {
     margin-top: 3rem;
-    font-size: 2rem;
+    font-size: 2.7rem;
 }
 
 .card-name .name {
-    width: 4.5rem;
+    width: 6rem;
+    height: 6rem;
 }
 /* Card name end */
 
