@@ -100,6 +100,49 @@ body {
 }
 
 /* card section start */
+.intro {
+    color: black;
+    display: flex;
+    padding-top: 10rem;
+    justify-content: center;
+}
+
+.intro .text-intro h1 {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 6rem;
+    font-weight: 300;
+}
+
+.card-name {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+    color: rgb(25, 109, 177);
+}
+
+.card-name .name {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 1rem;
+    justify-content: center;
+    margin: 0 0.5rem;
+    width: 10rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+
+
+
+
+
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -202,6 +245,23 @@ body {
     color: rgb(214, 18, 18);
     padding-top: 40rem;
 }
+
+/* Card name start */
+.intro .text-intro h1 {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 4rem;
+}
+
+.card-name {
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.card-name .name {
+    width: 4.5rem;
+}
+/* Card name end */
 
 .card-container .card {
     margin-top: 4rem;
