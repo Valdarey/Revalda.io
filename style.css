@@ -123,6 +123,7 @@ body {
     
 }
 
+
 .card-name {
     display: flex;
     flex-wrap: nowrap;
@@ -192,20 +193,31 @@ body {
 
 .card .card-content a {
     color: white;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    justify-content: left;
     border-radius: 1rem;
     font-size: 2rem;
     font-weight: 500;
 }
 
 .card-content .tombol {
+    border-radius: 1rem;
     display: inline-block;
     padding: 0.5rem 1rem;
     background-color: rgb(0, 128, 255);
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.card-content .tombol a:hover {
+    color: black;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    display: inline-block;
 }
 /* card section end */
-
 
 
 /* tablet */
@@ -213,6 +225,10 @@ body {
     html {
         font-size: 62.5%;
     }
+
+.card-container .card {
+    margin-top: 2rem;
+}
 }
 
 
@@ -295,6 +311,10 @@ body {
     height: 6rem;
 }
 /* Card name end */
+
+.card-container {
+    margin-top: 2rem;
+}
 
 .card-container .card {
     margin-top: 4rem;
