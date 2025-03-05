@@ -211,15 +211,15 @@ body {
 /* tablet */
 @media (max-width: 1366px) {
     html {
-        font-size: 65%;
+        font-size: 62.5%;
     }
 }
 
 
 /* Mobile */
-@media (max-width: 920px) {
+@media (max-width: 576px) {
     html {
-        font-size: 60%;
+        font-size: 55%;
     }
 
 #hamburger-menu {
