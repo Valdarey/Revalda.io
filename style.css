@@ -137,10 +137,16 @@ body {
 
 
 
+/* tablet */
+@media (max-width: 1366px) {
+    html {
+        font-size: 65%;
+    }
+}
+
 
 /* Mobile */
-
-@media (max-width: 500px) {
+@media (max-width: 930px) {
     html {
         font-size: 60%;
     }
