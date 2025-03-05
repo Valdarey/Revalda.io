@@ -310,11 +310,11 @@ body {
 
 /* hero section start */
 .hero .content h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .hero .content h2 {
-    font-size: 3.8rem;
+    font-size: 3.3rem;
 }
 
 .hero .content h3 {
@@ -364,6 +364,10 @@ body {
     object-fit: cover;
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
+}
+
+.card .card-content .tombol a {
+    font-size: 2rem;
 }
 
 
