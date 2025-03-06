@@ -166,13 +166,9 @@ body {
     -o-border-radius: 1rem;
 }
 
-.card-name .name a:hover {
-    color: crimson;
-}
-
 .card-name {
-    animation: 3s picture linear alternate ;
-    -webkit-animation: 3s picture linear alternate ;
+    animation: 3s picture linear ;
+    -webkit-animation: 3s picture linear ;
 }
 /* bagian tahun 2025 end */
 
@@ -181,12 +177,12 @@ body {
 /* animation scroll down start */
 @keyframes picture {
     from {
-        opacity: 0;
-        
+        opacity: 0;    
+        scale: 0,8; 
     }
     to {
-        opacity: 1;
-        
+        opacity: 1;    
+        scale: 1;
     }
 }
 /* animation scroll down start */
@@ -261,6 +257,7 @@ body {
 .card-content .tombol-menu a{
     border-radius: 1rem;
     color: white;
+    margin-top: auto;
     font-weight: 500;
     font-size: 1.4rem;
     text-align: center;
@@ -278,7 +275,7 @@ body {
     animation: picture linear;
     -webkit-animation: picture linear;
     animation-timeline: view();
-    animation-range: 0% cover 50%;
+    animation-range: entry 0% cover 25%;
 }
 /* card section end */
 
