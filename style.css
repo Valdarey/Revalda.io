@@ -393,6 +393,8 @@ body {
 
 .card .card-content .tombol-menu a {
     font-size: 2rem;
+    flex-wrap: wrap;
+    margin: 8px 8px;
 }
 
 
