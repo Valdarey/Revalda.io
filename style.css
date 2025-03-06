@@ -224,7 +224,21 @@ body {
     margin-left: 1rem;
 }
 
-
+.card-content .tombol-menu a{
+    border-radius: 1rem;
+    color: white;
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(0, 128, 255);
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    padding: 0 1rem;
+    margin-left: 1rem;
+}
 /* card section end */
 
 
@@ -374,6 +388,10 @@ body {
 }
 
 .card .card-content .tombol a {
+    font-size: 2rem;
+}
+
+.card .card-content .tombol-menu a {
     font-size: 2rem;
 }
 
