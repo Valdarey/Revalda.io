@@ -301,7 +301,7 @@ body {
 
 .slider {
     height: 25rem;
-    width: 90%;
+    width: 100%;
     position: relative;
     place-items: center;
     margin-top: 8rem;
@@ -334,6 +334,40 @@ img {
     border-top-left-radius: 1rem;
     border: 2px solid white;
 }
+/* card slider end */
+
+/* develoment start */
+/* .development {
+    display: flex;
+    margin: 2.5rem 10%;
+    background-color: white;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.development .dev-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.development .dev-container h1 {
+    color: var(--card);
+    font-size: 2.7rem;
+}
+
+.image-html img{
+    height: 8rem;
+    width: 100%;
+    object-fit: cover;
+}
+ */
+
+
+
 
 
 
