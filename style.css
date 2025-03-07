@@ -379,8 +379,8 @@ img {
     object-fit: cover;
     background-color: var(--icon);
     display: inline-block;
-    animation: 5s picture ease-in alternate-reverse infinite;
-    -webkit-animation: 5s picture ease-in alternate-reverse infinite;
+    animation: 14s picture ease-in ;
+    -webkit-animation: 14s picture ease-in ;
 }
 
 .dev-container .jelasan {
