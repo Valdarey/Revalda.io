@@ -11,6 +11,7 @@ html {
 :root {
     --card:rgb(0, 128, 255);
     --border: rgb(255, 255, 255);
+    --icon:  rgba(56, 56, 48, 0.553);
 }
 
 body {
@@ -277,7 +278,7 @@ body {
     animation: picture linear;
     -webkit-animation: picture linear;
     animation-timeline: view();
-    animation-range: entry 10% cover 25%;
+    animation-range: entry 5% cover 25%;
 }
 /* card section end */
 
@@ -337,9 +338,11 @@ img {
 /* card slider end */
 
 /* develoment start */
-/* .development {
+.development {
     display: flex;
-    margin: 2.5rem 10%;
+    height: 25rem;
+    justify-content: center;
+    margin: 3rem 10%;
     background-color: white;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
@@ -349,22 +352,42 @@ img {
 }
 
 .development .dev-container {
-    display: flex;
     width: 100%;
-    flex-direction: row;
 }
 
 .development .dev-container h1 {
     color: var(--card);
     font-size: 2.7rem;
+    padding-left: 2rem;
+    padding-bottom: 1.7rem;
+}
+
+.image-html {
+    display: flex;
+    gap: 2rem;
+    padding-left: 2rem;
 }
 
 .image-html img{
+    display: flex;
     height: 8rem;
-    width: 100%;
+    width: 12%;
     object-fit: cover;
+    background-color: var(--icon);
+    display: inline-block;
 }
- */
+
+.dev-container .jelasan {
+    margin: 0 2rem;
+}
+
+.dev-container .jelasan h3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
 
 
 
@@ -527,6 +550,54 @@ img {
     margin: 8px 8px;
 }
 
+/* section development */
+.development {
+    display: flex;
+    height: 33rem;
+    justify-content: center;
+    margin: 3rem 10%;
+    background-color: white;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.development .dev-container {
+    width: 100%;
+}
+
+.development .dev-container h1 {
+    color: var(--card);
+    font-size: 2.7rem;
+    padding-left: 2rem;
+    padding-bottom: 1.7rem;
+}
+
+.image-html {
+    display: flex;
+    gap: 2rem;
+    padding-left: 2rem;
+}
+
+.image-html img{
+    display: flex;
+    height: 6rem;
+    width: 22%;
+    object-fit: cover;
+    background-color: var(--icon);
+    display: inline-block;
+}
+
+.dev-container .jelasan {
+    margin: 0 2rem;
+}
+
+.dev-container .jelasan h3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 
 .navbar .menu-nav.active {
     left: 0;
