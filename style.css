@@ -73,6 +73,7 @@ body {
     color: black;
 }
 
+
 .navbar .menu-nav.active {
     right: 0;
 }
@@ -220,6 +221,7 @@ body {
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 
 .card .card-content h3 {
@@ -275,9 +277,65 @@ body {
     animation: picture linear;
     -webkit-animation: picture linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 25%;
+    animation-range: entry 10% cover 25%;
 }
 /* card section end */
+
+/* card slider start */
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-22.5rem * 6));
+        -webkit-transform: translateX(calc(-22.5rem * 6));
+        -moz-transform: translateX(calc(-22.5rem * 6));
+        -ms-transform: translateX(calc(-22.5rem * 6));
+        -o-transform: translateX(calc(-22.5rem * 6));
+}
+}
+
+.slider {
+    height: 25rem;
+    width: 90%;
+    position: relative;
+    place-items: center;
+    margin-top: 8rem;
+    overflow: hidden;
+}
+
+.slider .slide {
+    display: flex;
+    width: calc(22.5rem * 4);
+    margin: auto;
+    animation: scroll 8s linear alternate-reverse infinite;
+}
+
+.gambar {
+    height: 25rem;
+    width: 22.5rem;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border: 2px solid white;
+}
+
+
 
 
 
