@@ -180,7 +180,7 @@ body {
 @keyframes picture {
     from {
         opacity: 0;    
-        scale: 0,8; 
+        scale: 0.3; 
     }
     to {
         opacity: 1;    
@@ -349,6 +349,10 @@ img {
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
+    animation: picture linear;
+    -webkit-animation: picture linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 25%;
 }
 
 .development .dev-container {
@@ -375,6 +379,8 @@ img {
     object-fit: cover;
     background-color: var(--icon);
     display: inline-block;
+    animation: 5s picture ease-in alternate-reverse infinite;
+    -webkit-animation: 5s picture ease-in alternate-reverse infinite;
 }
 
 .dev-container .jelasan {
@@ -511,6 +517,7 @@ img {
 }
 /* Card name end */
 
+/* card about */
 .card-container .card {
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -549,6 +556,7 @@ img {
     flex-wrap: wrap;
     margin: 8px 8px;
 }
+/* end */
 
 /* section development */
 .development {
