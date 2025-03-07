@@ -278,7 +278,7 @@ body {
     animation: picture linear;
     -webkit-animation: picture linear;
     animation-timeline: view();
-    animation-range: entry 5% cover 25%;
+    animation-range: entry 0% cover 25%;
 }
 /* card section end */
 
@@ -552,20 +552,7 @@ img {
 
 /* section development */
 .development {
-    display: flex;
-    height: 33rem;
-    justify-content: center;
-    margin: 3rem 10%;
-    background-color: white;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-}
-
-.development .dev-container {
-    width: 100%;
+    height: 40rem;
 }
 
 .development .dev-container h1 {
@@ -595,8 +582,13 @@ img {
 }
 
 .dev-container .jelasan h3 {
+    font-size: 1.6rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+.dev-container .jelasan p {
+    font-size: 1.4rem;
 }
 
 .navbar .menu-nav.active {
