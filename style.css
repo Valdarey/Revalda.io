@@ -314,6 +314,7 @@ body {
     width: calc(22.5rem * 4);
     margin: auto;
     animation: scroll 8s linear alternate-reverse infinite;
+    -webkit-animation:;    
 }
 
 .gambar {
@@ -391,9 +392,69 @@ img {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+/* dev end */
 
+/* learning start */
+.learning {
+    display: flex;
+    padding: 1.2rem 10%;
+}
 
+.learning .learning-cover {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
+.learning-content {
+    display: inline-block;
+    background-color: white;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    text-align: center;
+    margin: auto; 
+    animation: picture linear;
+    -webkit-animation: picture linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 25%;
+}
+
+.learning-content img {
+    height: 13rem;
+    width: 100%;
+}
+
+.learning-content h2 {
+    color: var(--card);
+}
+
+.learning-content p {
+    padding-top: 1rem;
+}
+
+.learning-content a {
+    padding: 0.5rem 0;
+    margin-top: 0.5rem;
+    /* margin-bottom: 0.5rem; */
+    display: flex;
+    font-weight: 600;
+    font-size: 1.4rem;
+    background-color: var(--card);
+    color: white;
+    justify-content: center;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.learning-content a:hover {
+    background-color: black;  
+}
 
 
 
@@ -598,6 +659,36 @@ img {
 .dev-container .jelasan p {
     font-size: 1.4rem;
 }
+/* section development end */
+
+
+/* section learning start */
+.learning .learning-cover {
+    flex-wrap: wrap;
+}
+
+.learning-content {
+    display: inline-block;
+    background-color: white;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+
+.learning-content h2 {
+    font-size: 1.6rem;
+}
+
+.learning-content p {
+    font-size: 1.4rem;
+}
+
 
 .navbar .menu-nav.active {
     left: 0;
