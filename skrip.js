@@ -9,3 +9,15 @@ document.addEventListener('click', function(hapus) {
         menu.classList.remove('active')
     }
 })
+
+const music = document.querySelector('.music');
+document.querySelector('#head').onclick = () => {
+    music.classList.toggle('active');
+};
+
+const headphones = document.querySelector('#head');
+document.addEventListener('click', function(hapus) {
+    if(!music.contains(hapus.target) && !headphones.contains(hapus.target)) {
+        music.classList.remove('active')
+    }
+})
