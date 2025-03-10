@@ -218,6 +218,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 10rem;
+    padding: 8rem 0 5rem;
 }
 
 .card-container .card {
@@ -419,7 +420,7 @@ img {
 /* learning start */
 .learning {
     display: flex;
-    padding: 1.2rem 10%;
+    padding: 6rem 10%;
 }
 
 .learning .learning-cover {
