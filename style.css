@@ -316,11 +316,11 @@ body {
         -o-transform: translateX(0);
     }
     to {
-        transform: translateX(calc(-22.5rem * 6));
-        -webkit-transform: translateX(calc(-22.5rem * 6));
-        -moz-transform: translateX(calc(-22.5rem * 6));
-        -ms-transform: translateX(calc(-22.5rem * 6));
-        -o-transform: translateX(calc(-22.5rem * 6));
+        transform: translateX(calc(-22.5rem * 9));
+        -webkit-transform: translateX(calc(-22.5rem * 9));
+        -moz-transform: translateX(calc(-22.5rem * 9));
+        -ms-transform: translateX(calc(-22.5rem * 9));
+        -o-transform: translateX(calc(-22.5rem * 9));
 }
 }
 
@@ -329,15 +329,16 @@ body {
     width: 100%;
     position: relative;
     place-items: center;
-    margin-top: 8rem;
+    margin-top: 10rem;
     overflow: hidden;
 }
 
 .slider .slide {
     display: flex;
-    width: calc(22.5rem * 4);
+    width: calc(22.5rem * 7);
     margin: auto;
-    animation: scroll 8s linear alternate-reverse infinite; 
+    animation: scroll 16s linear alternate-reverse infinite;
+    -webkit-animation: scroll 16s linear alternate-reverse infinite;
 }
 
 .gambar {
@@ -583,6 +584,7 @@ img {
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
 }
+
 
 .navbar .menu-nav .revalda {
     color: black;
