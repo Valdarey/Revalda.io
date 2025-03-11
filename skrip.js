@@ -21,3 +21,6 @@ document.addEventListener('click', function(hapus) {
         music.classList.remove('active')
     }
 })
+
+
+

@@ -10,11 +10,14 @@ html {
 
 :root {
     --primary: rgb(0, 128, 255);
+    --second: rgb(40, 91, 159);
+
 }
 
 body {
-    background-color: white;
+    background-color: #00a3ff;
     font-family: 'poppins',sans-serif;
+    /* min-height: 2000px; */
 }
 
 .navbar {
@@ -26,6 +29,7 @@ body {
     justify-content: space-between;
     padding: 1.2rem 10%;
     align-items: center;
+    border-bottom: 2px solid white;
 }
 
 .navbar .navbar-logo {
@@ -36,19 +40,145 @@ body {
 
 .navbar .navbar-content a {
     color: white;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
-
-
+/* hero section start */
 .hero {
-    padding: 0 3%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    padding-top: 10rem;
+    padding: 2rem 3%;
+    flex-wrap: wrap;
+    animation: to-left-hero 2s ease forwards;
+    -webkit-animation: to-left-hero 2s ease forwards;
 }
 
 .hero .hero-content h1 {
-    font-size: 5rem;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
 }
+
+.hero .hero-content h2 {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.hero-content span {
+    color: whitesmoke;
+}
+
+.hero .card-hero {
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    padding: 0 5%;
+}   
+
+.card-hero img {
+    height: 25rem;
+    width: 15rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border: 4px solid white;
+    animation: to-left-hero 2s ease forwards;
+    -webkit-animation: to-left-hero 2s ease forwards;
+}
+
+.hero .hero-about {
+    padding-left: 4rem;
+    margin: auto;
+    animation: to-right-hero 2s ease forwards;
+    -webkit-animation: to-right-hero 2s ease forwards;
+}
+
+.hero-about h2 {
+    font-size: 4rem;
+    color: white;
+}
+
+.card-hero .hero-about h3 {
+    font-size: 2.5rem;
+}
+
+/* animation */
+@keyframes to-right-hero {
+    0% {
+        transform: translateX(450px) ;
+        opacity: 0;
+        -webkit-transform: translateX(450px) ;
+        -moz-transform: translateX(450px) ;
+        -ms-transform: translateX(450px) ;
+        -o-transform: translateX(450px) ;
+}
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+}
+}
+
+@keyframes to-left-hero {
+    0% {
+        transform: translateX(-100px) ;
+        opacity: 0;
+        -webkit-transform: translateX(-100px) ;
+        -moz-transform: translateX(-100px) ;
+        -ms-transform: translateX(-100px) ;
+        -o-transform: translateX(-100px) ;
+}
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+}
+}
+/* animation end */
+
+
+
+/* section campus */
+/* .campus {
+    background-color: white;
+    margin-top: 10rem;
+} */
+
+
+
+
+
+
+
+
+/* mobile */
+@media (max-width: 576px) {
+    html {
+        font-size: 55%;
+    }
+
+.card-hero img {
+    margin: auto;
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+}
+
+.hero .card-hero {
+    flex-direction: column;
+}
+
+.hero .hero-about {
+    padding: 2rem 0%;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero .hero-about h2 {
+    font-size: 2.4rem;
+}
+
+.hero .hero-about h3 {
+    font-size: 2rem;
+}
+}
+
+

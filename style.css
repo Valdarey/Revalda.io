@@ -646,6 +646,34 @@ img {
 }
 /* Card name end */
 
+/* card animation start */
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-22.5rem * 10));
+        -webkit-transform: translateX(calc(-22.5rem * 10));
+        -moz-transform: translateX(calc(-22.5rem * 10));
+        -ms-transform: translateX(calc(-22.5rem * 10));
+        -o-transform: translateX(calc(-22.5rem * 10));
+}
+}
+
+.slider .slide {
+    display: flex;
+    width: calc(22.5rem * 7);
+    margin: auto;
+    animation: scroll 15s linear alternate-reverse infinite;
+    -webkit-animation: scroll 15s linear alternate-reverse infinite;
+}
+
+
+
 /* card about */
 .card-container .card {
     width: 100%;
