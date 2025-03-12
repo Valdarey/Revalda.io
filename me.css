@@ -17,7 +17,7 @@ html {
 body {
     background-color: #00a3ff;
     font-family: 'poppins',sans-serif;
-    min-height: 2000px;
+    /* min-height: 2000px; */
 }
 
 .navbar {
@@ -104,6 +104,7 @@ body {
 }
 
 .card-hero .hero-about h3 {
+    padding-top: 2rem;
     font-size: 2.5rem;
 }
 
@@ -142,11 +143,6 @@ body {
 
 
 /* section campus */
-/* .campus {
-    background-color: white;
-    margin-top: 16rem;
-} */
-
 
 
 
@@ -183,16 +179,17 @@ body {
 .hero .hero-about {
     padding: 2rem 0%;
     justify-content: center;
-    text-align: center;
     margin-top: 3rem;
+    text-align: center;
 }
 
 .hero .hero-about h2 {
-    font-size: 3rem;
+    font-size: 2.4rem;
 }
 
 .hero .hero-about h3 {
-    font-size: 2.8rem;
+    padding-top: 2rem;
+    font-size: 2rem;
 }
 /* hero section end */
 }
