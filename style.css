@@ -423,7 +423,7 @@ img {
 /* learning start */
 .learning {
     display: flex;
-    padding: 6rem 10%;
+    padding: 8rem 10%;
 }
 
 .learning .learning-cover {
