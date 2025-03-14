@@ -14,6 +14,10 @@ html {
 
 }
 
+#hamburger-menu {
+    display: none;
+}
+
 body {
     background-color: #00a3ff;
     font-family: 'poppins',sans-serif;
