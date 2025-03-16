@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>me</title>
+    <title>Information</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,9 +28,9 @@
          <div class="menu-nav">
             <a class="revalda">Revalda.io</a>
             <a href="#Tentang">Tentang</a>
-            <a href="#more">More</a>
-
+            <a href="#more">Prototype</a>
          </div>
+
             <div class="navbar-content">
                 <a href="Index.html" id="spotify"><i data-feather="home"></i></a>
                 <a href="#" id="hamburger"><i data-feather="menu"></i></a>
@@ -61,18 +61,19 @@
     <section class="about" id="about">
         <main class="main-about">
             <div class="in-about">
-                <p>Saya seorang mahasiswa Informatika di Universitas Ponorogo yang
+                <p>Saya seorang mahasiswa Informatika di Universitas Muhammadiyah Ponorogo yang
                      memiliki semangat tinggi dalam menjalani aktivitasnya. Dengan hobi olahraga 
                      dan traveling, Saya suka mencari tantangan baru, baik dalam mengeksplorasi
-                      tempat-tempat menarik maupun dalam dunia teknologi.
+                    tempat-tempat menarik maupun dalam dunia teknologi.
                      Kombinasi antara jiwa petualang dan ketertarikan pada dunia digital 
                      membuatnya selalu aktif dan penuh energi! 🚀🏞️</p>
             </div>
         </main>
     </section>
 
+    <!-- prototype start -->
     <div class="title-project" id="more">
-        <h1>More</h1>
+        <h1>Prototype</h1>
     </div>
 
     <section class="project">
@@ -81,11 +82,12 @@
                 <img src="img/More.png" alt="">
                 <h2>El.classix</h2>
                 <p>Website Kelas 12 Mipa 6</p>
-                <a href="https://valdarey.github.io/Elclassix/Index.html">Kunjungi</a>
+                <a href="https://drive.google.com/file/d/1G3fQdlvG7AFiQGVPAtImar5wyc1BbcnP/view?usp=drive_link">Kunjungi</a>
             </div>
         </main>
     </section>
-
+    <!-- Prototype end -->
+    
     
     
 
@@ -108,7 +110,15 @@ var typed = new Typed('.otomatis', {
 const menu = document.querySelector('.menu-nav');
 document.querySelector('#hamburger').onclick = () => {
     menu.classList.toggle('active')
-}
+};
+
+const hamburger = document.querySelector('#hamburger');
+document.addEventListener('click',function(hapus) {
+    if(!menu.contains(hapus.target) && !hamburger.contains(hapus.target)) {
+        menu.classList.remove('active')
+    }
+});
+
 </script>
 
     
