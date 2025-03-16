@@ -24,10 +24,16 @@
 <body>
     <!-- navbar -->
      <nav class="navbar">
-         <a class="navbar-logo">Revalda.io</a>
+         <a href="#" class="navbar-logo">Revalda.io</a>
+         <div class="menu-nav">
+            <a class="revalda">Revalda.io</a>
+            <a href="#Tentang">Tentang</a>
+            <a href="#more">More</a>
+
+         </div>
             <div class="navbar-content">
                 <a href="Index.html" id="spotify"><i data-feather="home"></i></a>
-                <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+                <a href="#" id="hamburger"><i data-feather="menu"></i></a>
             </div>
      </nav>
      <!-- navbar end -->
@@ -48,10 +54,13 @@
         </div>  
     </section>
 
+    <div class="tentang" id="Tentang">
+        <h1>Tentang</h1>
+    </div>
+
     <section class="about" id="about">
         <main class="main-about">
             <div class="in-about">
-                <h1>Tentang</h1>
                 <p>Saya seorang mahasiswa Informatika di Universitas Ponorogo yang
                      memiliki semangat tinggi dalam menjalani aktivitasnya. Dengan hobi olahraga 
                      dan traveling, Saya suka mencari tantangan baru, baik dalam mengeksplorasi
@@ -62,7 +71,7 @@
         </main>
     </section>
 
-    <div class="title-project">
+    <div class="title-project" id="more">
         <h1>More</h1>
     </div>
 
@@ -94,9 +103,13 @@ var typed = new Typed('.otomatis', {
     typeSpeed: 40,
     backSpeed: 40,
     loop: true
-})
-</script>
+});
 
+const menu = document.querySelector('.menu-nav');
+document.querySelector('#hamburger').onclick = () => {
+    menu.classList.toggle('active')
+}
+</script>
 
     
 </body>
