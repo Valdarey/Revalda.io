@@ -204,7 +204,7 @@ body {
 @keyframes picture {
     from {
         opacity: 0;    
-        scale: 0.8; 
+        scale: 0.3; 
     }
     to {
         opacity: 1;    
