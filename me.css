@@ -375,6 +375,9 @@ body {
 .card-content5:hover {
     background-color: crimson;
 }
+.card-content6:hover {
+    background-color: crimson;
+}
 
 .card-content a{
     color: white;
@@ -456,6 +459,25 @@ body {
 }
 
 .card-content5 a{
+    color: white;
+    padding: 1.5rem 1rem;
+    font-size: 1.5rem;
+}
+
+.card-content6 {
+    display: flex;
+    background-color: violet;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    /* width: 15rem; */
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.card-content6 a{
     color: white;
     padding: 1.5rem 1rem;
     font-size: 1.5rem;
