@@ -356,6 +356,7 @@ body {
     margin-top: 2rem;
     width: 15rem;
     border-radius: 1rem;
+    align-items: center;
 }
 .card-content:hover {
     background-color: crimson;
@@ -392,6 +393,7 @@ body {
     margin-left: 1rem;
     width: 15rem;
     border-radius: 1rem;
+    align-items: center;
 }
 
 .card-content1 a{
@@ -407,6 +409,7 @@ body {
     margin-left: 1rem;
     width: 15rem;
     border-radius: 1rem;
+    align-items: center;
 }
 
 .card-content2 a{
@@ -422,6 +425,7 @@ body {
     margin-left: 1rem;
     width: 15rem;
     border-radius: 1rem;
+    align-items: center;
 }
 
 .card-content3 a{
@@ -437,6 +441,7 @@ body {
     margin-left: 1rem;
     width: 15rem;
     border-radius: 1rem;
+    align-items: center;
 }
 
 .card-content4 a{
@@ -456,6 +461,7 @@ body {
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
+    align-items: center;
 }
 
 .card-content5 a{
@@ -475,6 +481,7 @@ body {
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
+    align-items: center;
 }
 
 .card-content6 a{
