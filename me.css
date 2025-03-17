@@ -26,7 +26,6 @@ html {
 body {
     background-color: #00a3ff;
     font-family: 'poppins',sans-serif;
-    min-height: 2000px;
 }
 
 /* navbar start */
@@ -40,6 +39,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 1.2rem 10%;
+    font-size: 1.4rem;
     align-items: center;
     border-bottom: 2px solid white;
 }
@@ -65,7 +65,7 @@ body {
 
 .navbar .navbar-content a {
     color: white;
-    margin: 0.8rem;
+    font-size: 2rem;
 }
 
 .navbar .navbar-content a:hover {
@@ -188,16 +188,25 @@ body {
 
 .about {
     margin-top: 2rem;
-    padding: 0 3%;
+    padding: 1rem 3%;
     left: 0;
     right: 0;
     background-color:white;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
 }
 
 .about .main-about .in-about p {
-    padding: 2rem 0;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: black;
+}
+
+.main-about .in-about span  {
+    display: flex;
+    margin-bottom: 1rem;
 }
 
 .title-project h1 {
@@ -269,8 +278,151 @@ body {
 }
 
 .gambar a:hover {
+    background-color: black;
+}
+
+/* section perpus start */
+.perpus {
+    padding: 8rem 0;
+    margin-top: 10rem;
+    min-height: 100vh;
+    /* display: flex; */
+    align-items: top;
+    background-image:url(./img/Literature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:left;
+    border-top: 5px solid white;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.perpus::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+
+.perpus-pembuka h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 0 8%;
+    display: inline-block;
+    background-color: var(--primary);
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.perpus-pembuka h3 {
+    color: white;
+    font-size: 2.7rem;
+    padding: 0 4%;
+    margin-top: 1rem;
+} 
+
+.perpus-pembuka p {
+    margin-top: 2rem;
+    padding: 0 4%;
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+}
+
+.perpus-pembuka h4 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 3rem;
+    padding: 0 8%;
+    display: inline-block;
+    background-color: var(--primary);
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+/* colection */
+.card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.card-content {
+    display: flex;
+    background-color: violet;
+    margin-top: 2rem;
+    width: 15rem;
+    border-radius: 1rem;
+}
+.card-content:hover {
     background-color: crimson;
 }
+.card-content1:hover {
+    background-color: crimson;
+}
+.card-content2:hover {
+    background-color: crimson;
+}
+.card-content3:hover {
+    background-color: crimson;
+}
+
+.card-content a{
+    color: white;
+    padding: 1.5rem 1rem;
+    font-size: 1.5rem;
+}
+
+.card-content1 {
+    display: flex;
+    background-color: violet;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 15rem;
+    border-radius: 1rem;
+}
+
+.card-content1 a{
+    color: white;
+    padding: 1.5rem 1rem;
+    font-size: 1.5rem;
+}
+
+.card-content2 {
+    display: flex;
+    background-color: violet;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 15rem;
+    border-radius: 1rem;
+}
+
+.card-content2 a{
+    color: white;
+    padding: 1.5rem 1rem;
+    font-size: 1.5rem;
+}
+
+.card-content3 {
+    display: flex;
+    background-color: violet;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 15rem;
+    border-radius: 1rem;
+}
+
+.card-content3 a{
+    color: white;
+    padding: 1.5rem 1rem;
+    font-size: 1.5rem;
+}
+
+
+
 
 
 
@@ -382,6 +534,15 @@ body {
     margin-top: 2rem;
     font-size: 2rem;
 }
+/* hero end */
+
+/* perpus start */
+.perpus-pembuka h3 {
+    margin-top: 1rem;
+    font-size: 2.4rem;
+}
+
+
 
 .navbar .menu-nav.active {
     left: 0;
