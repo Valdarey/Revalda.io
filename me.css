@@ -492,10 +492,10 @@ body {
 
 
 
-
+/* tablet start */
 @media (max-width: 1000px) {
     html {
-        font-size: 64%;
+        font-size: 62.5%;
     }
 
 #hamburger {
@@ -524,7 +524,6 @@ body {
 
 .navbar .menu-nav a {
     color: black;
-    font-size: 2rem;
     display: flex;
     margin-top: 1rem;
     padding-top: 2rem;
@@ -549,6 +548,21 @@ body {
 
 .navbar .navbar-menu.active {
     left: 0;
+}
+
+.hero .card-hero {
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero .card-hero img {
+    margin: auto;
+    width: 30rem;
+}
+
+.hero .card-hero .hero-about h2 {
+    margin-top: 2rem;
 }
 }
 /* tablet end */
